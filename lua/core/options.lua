@@ -5,8 +5,8 @@ opt.relativenumber = true
 opt.number = true
 
 -- 缩进
-opt.tabstop = 2
-opt.shiftwidth = 2
+opt.tabstop = 4
+opt.shiftwidth = 4
 opt.expandtab = true
 opt.autoindent = true
 
@@ -14,7 +14,7 @@ opt.autoindent = true
 opt.wrap = false
 
 -- 光标行
-opt.cursorline = true
+opt.cursorline = false
 
 -- 启用鼠标
 opt.mouse:append("a")
@@ -31,6 +31,6 @@ opt.ignorecase = true
 opt.smartcase = true
 
 -- 外观
-opt.termguicolors = true
+opt.termguicolors = false
 opt.signcolumn = "yes"
-vim.cmd[[colorscheme tokyonight-moon]]
+-- vim.cmd[[colorscheme tokyonight-moon]]
