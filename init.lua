@@ -1,7 +1,7 @@
 -- require("plugins.plugins-setup")
 
-require("core.options")
-require("core.keymaps")
+require("lua.core.options")
+require("lua.core.keymaps")
 
 -- plugin
 -- require("plugins.lualine")
